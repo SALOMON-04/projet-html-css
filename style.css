@@ -51,7 +51,7 @@ nav a {
     rgba(81, 84, 85, 0.411) 0px 6px 6px;
 }
 .bi h1 {
-  color: rgb(236, 217, 194);
+  color: rgb(3, 108, 199);
   margin-left: 4%;
   font-size: 60px;
 }
@@ -76,7 +76,7 @@ nav a {
   border-left: none;
 }
 .le i {
-  opacity: 0.33 ;
+  opacity: 0.33;
   font-size: 50px;
 }
 .rech {
@@ -111,20 +111,19 @@ nav a {
   text-align: center;
   justify-content: space-between;
   font-size: 20px;
-
 }
 .cram2 i {
   opacity: 0.5;
   font-size: 30px;
   padding-top: 10px;
   width: 10%;
-  height:50px;
+  height: 50px;
   color: rgb(0, 96, 214);
   border-radius: 10px;
   background-color: #8dcffb;
 }
 .cram2 h3 {
-  margin: 10%
+  margin: 10%;
 }
 
 #our {
@@ -141,8 +140,8 @@ nav a {
   font-size: 30px;
 }
 .cram3 {
-display: flex;
- padding: 50px;
+  display: flex;
+  padding: 50px;
 }
 .cram3 i {
   padding-right: 20px;
@@ -151,30 +150,27 @@ display: flex;
 .top {
   display: flex;
   justify-content: center;
-  padding:40px;
+  padding: 40px;
   font-size: 20px;
-    font-family: Geneva ;
+  font-family: Geneva;
 }
 .gril {
   display: flex;
   justify-content: center;
   gap: 30px;
-
-  
 }
 .rectangle {
   width: 250px;
 }
- .Te {
+.Te {
   display: flex;
   justify-content: center;
   padding: 10px;
   gap: 90px;
-  
 }
 .Ta {
-   display: flex;
-   justify-items: center;
+  display: flex;
+  justify-items: center;
 }
 .see {
   margin: 0 auto;
@@ -184,15 +180,169 @@ display: flex;
   width: 150px;
   height: 40px;
   margin-top: 50px;
+  
   h4 {
     padding-top: 10px;
   }
 }
 
-
-.back {
-   background-image: url(Images/rectangle\ 0.png);
+.lorem {
+  background-image: url(Images/rectangle\ 0.png);
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  min-height: 500px;
+  color: white;
+}
+.ph h1 {
+  padding: 50px 0;
+  font-size: 80px;
+}
+.ph {
+  margin-bottom: 15%;
+}
+.ph hr {
+  display: flex;
+  width: 200%;
+}
+
+.bordure {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25%;
+}
+
+.ph p {
+  display: flex;
+  padding-top: 10%;
+  font-size: 30px;
+}
+.ph a {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 40px;
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  width: 20%;
+  margin-top: 10%;
+  padding-left: 10%;
+}
+.feature {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  h1 {
+    font-size: 50px;
+    
+  }
+  i {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    height: 10px;
+  
+  }
+}
+
+.gnews {
+ display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding-top: 2%;
+  
+   .news {
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        padding: 0 20px;
+        padding: 10px 20px;
+         font-size: 20px;
+         width: 40%;
+          box-shadow:
+         rgba(203, 206, 207, 0.623) 0px 10px 20px,
+         rgba(187, 187, 187, 0.623) 0px 10px 20px,
+          rgba(203, 206, 207, 0.623) 0px 10px 20px,
+         rgba(199, 199, 199, 0.411) 0px 6px 6px;
+      
+        
+      
+   }
+   .dates {
+    
+       display: flex;
+       font-size: 20px;
+      margin-left: 20px;
+   }
+   
+   .descrip {
+    margin-left: 20px;
+    margin-top: 5px;
+        p {
+           margin-top: 20px;
+        }
+   }
+   .more {
+        color: #2450d1;
+        display: flex;
+        margin-left: 10px;
+        padding-top: 30px;
+        gap: 15px;
+        a {
+           text-decoration: none;
+           color: #2450d1;
+           }
+           i {
+            border: 1px solid  #2450d1;
+border-radius: 100px;
+padding: 5px;
+           }
+   }
+}
+
+.acteur {
+  background-image: url(Images/image8.jpeg);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 40px 60px;
+  min-height: 500px;
+  margin-top: 15%;
+
+  
+  .comentary {
+   
+    
+    background-color: white;
+    font-size: 20px;
+         width: 40%;
+         border-radius: 30px;
+          box-shadow:
+         rgba(203, 206, 207, 0.623) 0px 10px 20px,
+         rgba(187, 187, 187, 0.623) 0px 10px 20px,
+          rgba(203, 206, 207, 0.623) 0px 10px 20px,
+         rgba(199, 199, 199, 0.411) 0px 6px 6px;
+          padding: 10px 20px;
+   }
+   
+   .test {
+     padding-bottom: 45%;
+     display: flex;
+     justify-content: space-around;
+      grid: 50px;
+   }
+
+   .employé {
+    gap: 30px;
+      align-items: center;
+   }
 }
 
