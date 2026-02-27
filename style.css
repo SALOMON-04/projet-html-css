@@ -186,58 +186,74 @@ nav a {
   }
 }
 
-.lorem {
+.hero1 {
   background-image: url(Images/rectangle\ 0.png);
-  background-size: cover;
   background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 60px;
-  min-height: 500px;
-  color: white;
-}
-.ph h1 {
-  padding: 50px 0;
-  font-size: 80px;
-}
-.ph {
-  margin-bottom: 15%;
-}
-.ph hr {
-  display: flex;
-  width: 200%;
+  background-size: cover;
+  padding: 65px 115px;
+  color: #fff;
+  height: 850px;
 }
 
-.bordure {
+.hero1 h1 {
+  font-size: 100px;
+  font-weight: 900;
+  margin: 0px;
+  padding-top: 80px;
+}
+
+
+.hero-bottom {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 15px;
-  margin-top: 25%;
+  margin: 24px 0;
 }
 
-.ph p {
-  display: flex;
-  padding-top: 10%;
-  font-size: 30px;
+.left {
+  max-width: 400px;
 }
-.ph a {
-  display: flex;
-  font-size: 20px;
-  padding: 10px;
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 40px;
-  text-decoration: none;
-  background-color: #fff;
+
+.left p {
+  margin-bottom: 100px;
+}
+.btn2 {
+  background: white;
   color: black;
-  width: 20%;
-  margin-top: 10%;
-  padding-left: 10%;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 35px;
+  font-size: 16px;
 }
+
+.right {
+  display: flex;
+  gap: 35px;
+}
+
+.dstination img {
+  width: 205px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 45px;
+  display: block;
+  padding: 10px 0;
+}
+
+.dstination span {
+  display: block;
+  font-size: 35px;
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+
 .feature {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 60px;
+
   h1 {
     font-size: 50px;
     
@@ -254,24 +270,28 @@ nav a {
 
 .gnews {
  display: flex;
-  justify-content: space-evenly;
-  gap: 30px;
+  justify-content: center;
   padding-top: 2%;
+  gap: 20px;
+   
   
    .news {
-        /* border: 1px solid black; */
-        border-radius: 20px;
-        padding: 0 20px;
-        padding: 10px 20px;
+        
+        border-radius: 40px;
          font-size: 20px;
-         width: 40%;
+         width: 20%;
+         height: 100%;
           box-shadow:
          rgba(203, 206, 207, 0.623) 0px 10px 20px,
          rgba(187, 187, 187, 0.623) 0px 10px 20px,
           rgba(203, 206, 207, 0.623) 0px 10px 20px,
          rgba(199, 199, 199, 0.411) 0px 6px 6px;
       
-        
+        img {
+          border-radius: 40px  40px 0 0;
+          width: 100%;
+         
+        };
       
    }
    .dates {
@@ -286,13 +306,14 @@ nav a {
     margin-top: 5px;
         p {
            margin-top: 20px;
+        
         }
    }
    .more {
         color: #2450d1;
         display: flex;
         margin-left: 10px;
-        padding-top: 30px;
+        padding: 25px;
         gap: 15px;
         a {
            text-decoration: none;
@@ -310,15 +331,26 @@ padding: 5px;
   background-image: url(Images/image8.jpeg);
   background-size: cover;
   background-position: center;
-  align-items: center;
-  display: flex;
-  /* justify-content: space-around; */
+
   padding: 40px 60px;
   min-height: 500px;
   margin-top: 15%;
 
-  
-  .comentary {
+   .test {
+    display: flex;
+    justify-content: space-around;
+    gap: 50%;
+    color: #fff;
+    font-size: 20px;
+    
+    div i{
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 20px;
+      padding: 15px;
+    }
+  }
+
+  /* .comentary {
    
     
     background-color: white;
@@ -343,6 +375,6 @@ padding: 5px;
    .employé {
     gap: 30px;
       align-items: center;
-   }
+   } */
 }
 
