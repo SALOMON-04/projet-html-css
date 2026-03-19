@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+   background-color:#e7e5e5 ;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+ header a:hover {
+    color: blue;
+}
+
+img{
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.grandI {
+
+    display: flex;
+    justify-content: center;
+    padding:0 10% ;
+    gap: 10%;
+}
+
+#Devenez {
+    font-size: 3em;
+}
+
+#réussite {
+    color: rgb(0, 81, 255);
+    font-size: 3em;
+}
+
+.gauche{
+
+    display: block;
+    justify-content: center;
+    margin-top: 5%;
+    height: 10%;
+}
+
+
+
+.motivation span {
+    display: flex;
+    font-size: 1.5em;
+    padding-top: 5%;
+    
+    
+}
+
+.commencez {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 3%;
+    top: 5%;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgb(168, 167, 167);
+    
+    
+}
+
+.commencez span {
+font-size: 1.2em;
+}
+
+.commencez span:hover {
+    color: white;
+}
+
+.commencez:hover {
+    background: rgb(0, 17, 255);
+}
+
+
+
+.droite {
+     background-image: url(image/finance4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 150%;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+  
+}
+
+.block {
+    border-radius: 15px ;
+     backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    width: 40%;
+    padding: 1%;
+    margin-top: 70% ;
+    background: rgba(255, 255, 255, 0.426);
+    
+    
+}
+
+.trend {
+    
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(64, 241, 114, 0.734);
+}
+
+
+.milieu1 {
+    
+    align-items: center;
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 30%;
+   
+}
+
+.milieu1 span {
+    margin-left: 8%;
+    opacity: 80%;
+    font-size: 30px;
+}
+
+
+
